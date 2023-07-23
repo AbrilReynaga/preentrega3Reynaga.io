@@ -1,0 +1,83 @@
+.header{
+    background-color: #9db9ee;
+    font-size: 18px;
+    font-style:normal;
+    text-align-last: center;
+    margin: 8px;
+    & &__ingresarregistrarse{
+        display: flex;
+        flex-direction: column;
+        a{
+            color:white;
+            font-size: 16px;
+            text-decoration: none;
+            display: flex;
+            justify-content: end;
+            align-items: end;
+            a:hover{
+                background-color: rgb(64, 64, 182);
+            }
+        } 
+    }
+    & &__imagenlogo{
+        width: 100px;
+        height: 100px;
+    }
+    p{
+        font-size: 24px;
+        font-weight: 600;
+        text-align-last: center;
+        margin: 5px;
+        padding: 11px;
+    }
+}
+
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    p{
+        font-size: 15px;
+        font-weight: 360;
+        color:black
+    }
+}
+section{
+    background-color: white;
+    .contenido{
+    background-color: #F5FFFA;
+    margin: 20px
+    h2 {
+    margin: 15px 10px 15px 25px;
+    padding: 11px
+    }
+    }
+    .home {
+    height: auto;
+    font-size: 15px;
+    font-weight: 360;
+    color:black;
+    margin: 18px 35px 30px 35px;
+    display: flex;
+    .imag{
+    margin: 30px auto;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-height: 20rem !important;
+    max-width: 90%;
+    }
+}
+
+h3{
+    text-align-last: center;
+}
+.redessociales {
+    margin: 15px auto;
+    width: 18%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px
+}
+}
+
+

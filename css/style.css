@@ -1,0 +1,93 @@
+header{
+    background-color: #9db9ee;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 18px;
+    font-style:normal;
+    text-align-last: center;
+    margin: 8px
+} 
+header a{
+    color:white
+}
+.imagenlogo{
+    margin: 10px 20px 5px 20px;
+    text-align-last: left;
+}
+.imagenlogo p{
+    font-size: 24px;
+    font-weight: 600;
+    text-align-last: center;
+    margin: 5px;
+    padding: 11px
+}
+
+.ingresar-registrarse{
+    margin: 5px 5px 5px 5px;
+    padding: 5px;
+    width: 100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns:  repeat(2, 1fr);
+    justify-items: end;
+}
+.ingresar-registrarse a{
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.ingresar-registrarse a:hover{
+    background-color: blue;
+}
+
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+p{
+    font-size: 15px;
+    font-weight: 360;
+    color:black
+}
+.contenido{
+    background-color: #F5FFFA;
+    margin: 20px;
+}
+
+h2 {
+    margin: 15px 10px 15px 25px;
+    padding: 11px;
+}
+
+.home {
+    height: auto;
+    font-size: 15px;
+    font-weight: 360;
+    color:black;
+    margin: 18px 35px 30px 35px;
+    display: flex;
+}
+
+.imag{
+    margin: 30px auto;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px
+}
+
+h3{
+    text-align-last: center;
+}
+.redessociales {
+    margin: 15px auto;
+    width: 18%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px
+}
+
+.editar {
+    text-align-last: right
+}
+

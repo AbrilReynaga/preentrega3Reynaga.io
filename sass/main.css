@@ -1,0 +1,82 @@
+.header {
+  background-color: #9db9ee;
+  font-size: 18px;
+  font-style: normal;
+  -moz-text-align-last: center;
+       text-align-last: center;
+  margin: 8px;
+}
+.header .header__ingresarregistrarse {
+  display: flex;
+  flex-direction: column;
+}
+.header .header__ingresarregistrarse a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.header .header__ingresarregistrarse a a:hover {
+  background-color: rgb(64, 64, 182);
+}
+.header .header__imagenlogo {
+  width: 100px;
+  height: 100px;
+}
+.header p {
+  font-size: 24px;
+  font-weight: 600;
+  -moz-text-align-last: center;
+       text-align-last: center;
+  margin: 5px;
+  padding: 11px;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+body p {
+  font-size: 15px;
+  font-weight: 360;
+  color: black;
+}
+
+section {
+  background-color: white;
+}
+section .contenido {
+  background-color: #F5FFFA;
+  margin: 20px h2;
+  margin-margin: 15px 10px 15px 25px;
+  margin-padding: 11px;
+}
+section .home {
+  height: auto;
+  font-size: 15px;
+  font-weight: 360;
+  color: black;
+  margin: 18px 35px 30px 35px;
+  display: flex;
+}
+section .home .imag {
+  margin: 30px auto;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-height: 20rem !important;
+  max-width: 90%;
+}
+section h3 {
+  -moz-text-align-last: center;
+       text-align-last: center;
+}
+section .redessociales {
+  margin: 15px auto;
+  width: 18%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,48 @@
+header{
+    background-color: #9db9ee;
+    font-family:'Plus Jakarta Sans';
+    font-size: 18px;
+    font-style:normal;
+    text-align-last: center;
+} 
+header a{
+    color:white
+}
+.imagenlogo{
+    text-align-last: left;
+}
+.imagenlogo p{
+    font-size: 24px;
+    font-weight: 600;
+    text-align-last: center;
+}
+
+.ingresar{
+    font-size: 16px;
+    text-align-last: right;
+    margin: 10px auto;
+    padding: 5px;
+}
+.ingresar a{
+    text-decoration: none;
+}
+.ingresar a:hover{
+    background-color: blue;
+}
+
+.registrarse{
+    font-size: 16px;
+    text-align-last: right;
+    margin: 10px auto;
+    padding: 5px;
+}
+.registrarse a{
+    text-decoration: none;
+}
+.registrarse a:hover{
+    background-color: blue;
+}
+
+body{
+    font-family: "Plus Jakarta Sans";
+}
